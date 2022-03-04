@@ -1,0 +1,16 @@
+import turtle
+t= turtle.Turtle()
+s= turtle.Screen()
+s.bgcolor("black")
+t.speed(5)
+col = ['yellow','blue','white','green']
+r=0
+# Hello there, This is Raushan Ranjan
+for i in range(50):
+    t.forward(i*10)
+    t.right(144)
+    t.color(col[r])
+    if r==3:
+        r=0
+    else:
+        r+=1
