@@ -1,0 +1,15 @@
+"""Welcome to Programming with Raushan"""
+from turtle import *
+bgcolor('black')
+speed(30)
+hideturtle()
+for i in range(120):
+    color('red')
+    circle(90)
+    color('yellow')
+    circle(60)
+    color('brown')
+    circle(30)
+    right(3)
+    forward(3)
+done()
