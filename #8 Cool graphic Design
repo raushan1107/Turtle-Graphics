@@ -1,0 +1,12 @@
+# This is Raushan 
+""" Welcome to ProgramsKart """
+import turtle
+t=turtle.Turtle()
+turtle.bgcolor('black')
+list=['green','red','purple','blue','cyan']
+for i in range(200):
+    t.color(list[i%5])
+    t.pensize(i/20)
+    t.forward(i)
+    t.left(59)
+turtle.mainloop()
